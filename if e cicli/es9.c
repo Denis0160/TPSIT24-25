@@ -55,13 +55,13 @@ di terminare il programma.
               min = C;
             }
 
-          printf ("Il numero minimo è: %d\n", min);
-          printf ("Il numero massimo è: %d\n", max);
+
         }
       else
         printf ("I numeri non sono in ordine\n");
     }
   while (A >= 0 && B >= 0 && C >= 0);
-
+    printf ("Il numero minimo è: %d\n", min);
+    printf ("Il numero massimo è: %d\n", max);
   return 0;
 }
