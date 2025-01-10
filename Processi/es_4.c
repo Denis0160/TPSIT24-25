@@ -25,7 +25,7 @@ int ricerca(int numeri[], int n, int numero)
 int main(int argc, char *argv[])
 {
     int dim = 11; // dimensione dell'array
-    
+
     int numeri[] = {1, 4, 23, 65, 6, 9, 3, 12, 11, 5, 13};
 
     if (argc != 2)
@@ -51,7 +51,7 @@ int main(int argc, char *argv[])
             printf("Il numero %d non è presente nell'array.\n", numero);
         }
 
-        exit(0); 
+        exit(0);
     }
 
     wait(NULL); // Il processo padre aspetta che il figlio termini
